@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,8 +18,8 @@
                     alt="Profile picture"
                     class="profile-picture"
             />
-            <p style="text-align: center;">Ермаков Дмитрий</p>
-            <p style="text-align: center;">31.05.2003 (21 год)</p>
+            <p class="profile-text" style="text-align: center;">Ермаков Дмитрий</p>
+            <p class="profile-text" style="text-align: center;">31.05.2003 (22 года)</p>
         </div>
         <div class="block mobile">
             <h2>Контакты</h2>
@@ -35,7 +34,7 @@
     <div class="block">
         <h2>Backend-разработчик</h2>
         <p>
-            Cтудент 3 курса направления РИС "Разработка информационный систем" ПНИПУ.
+            Выпускник направления РИС "Разработка информационных систем" ПНИПУ.
         </p>
         <p>
             Интересуюсь backend-разработкой и высоконагруженными системами, компьютерными сетями.
@@ -52,74 +51,54 @@
         <p>gh <a href="https://github.com/DmitryErmakoff">@DmitryErmakoff</a></p>
         <p>Пермь</p>
         <p>Русский, Английский</p>
-        </div>
+    </div>
 </header>
 <div class="horizontal-container">
-    <div class="block" style="min-width: 60%;">
-        <h2>Опыт</h2>
-        <h3>2024</h3>
+    <div class="block">
+        <h2>Опыт работы - 1 год 8 месяцев</h2>
+        <h3>Июнь 2024 - по настоящее время</h3>
         <p>
             <img width="90" height="20" src="static/simp-logo.svg" alt="simpl"/>
-            <strong>Летняя стажировка в Simpl</strong> на позиции Backend-разработчика (java). За время стажировки:
-        <ul type="square">
-            <li>занимался написанием сервисом, который отвечал за транспортировку данных</li>
-            <li>работал с СУБД (Postgres, Oracle) -- писал запросы, миграции (liquibase);</li>
-            <li>переносил существующий код с Java 8 на Java 17, включая обновления зависимостей и библиотек;</li>
-            <li>изначально разрабатывал сервис используя архитектуру REST, впоследствии переносил на SOAP (писал wsdl и xsd файлы);</li>
-            <li>использовал json, xml для типизированного обмена данными;</li>
-            <li>писал DockerFile и docker-compose файлы;</li>
-            <li>занимался написанием телеграмм-бота, который отвечал за парсинг новостей с портала компании;</li>
-            <li>изучением технологии Apache Kafka, используемой в микросервисной разработке.</li>
-        </ul>
+            <strong>Backend разработчик Java.</strong> Начинал в роли студента-практиканта, после успешной стажировки был переведен в штат компании.
         </p>
-        <div class="splitter"></div>
-        <h3>2023</h3>
         <p>
-            <img width="90" height="20" src="static/simp-logo.svg" alt="yndx"/>
-            <strong>Летняя стажировка в Simpl</strong> на позиции Frontend-Разработчика (angular), во время которой я занимался:
-        <ul type="square">
-            <li>разработкой нового компонента который отвечал за бюджетирования;</li>
-            <li>переписыванием готовых компонентов библиотеки NgPrimе под предоставленный дизайн в Figma;</li>
-            <li>подключение и работа с RESTful API для обмена данными между фронтендом и бекендом;</li>
-            <li>изучением использующихся в продуктовой разработке технологий (jira, gitlab).</li>
-        </ul>
+            <strong>Ключевые проекты:</strong>
         </p>
+        <ul type="square">
+            <li><strong>Единая медицинская информационная система (ЕМИАС):</strong> Разработка и поддержка backend-сервисов для системы здравоохранения</li>
+            <li><strong>МФЦ терминалы:</strong> Создание модулей взаимодействия терминалов МФЦ с государственными информационными системами</li>
+        </ul>
+        <ul type="disc">
+            <li>Разрабатывал микросервисы, используя REST и SOAP</li>
+            <li>Ускорял обработку данных путем внедрения многопоточного подхода, что повысило производительность ресурсоемких операций</li>
+            <li>Участвовал в переходе с Java 8 на Java 17, включая обновление зависимостей</li>
+            <li>Самостоятельно сопровождал релизы: сборка артефактов, мониторинг метрик в Grafana, анализ логов в Graylog, деплой через Jenkins</li>
+            <li>Работал с реляционными БД (PostgreSQL, Oracle): писал и оптимизировал SQL-запросы, что привело к сокращению времени выполнения операций в 10 раз</li>
+            <li>Настраивал инфраструктуру: писал DockerFile для контейнеризации приложений, конфигурировал docker-compose для локального развертывания</li>
+            <li>Внедрил Redis для кэширования часто запрашиваемых данных, что снизило время выполнения запроса</li>
+        </ul>
+        <div class="splitter"></div>
         <h2>Прочие достижения</h2>
         <h3>2023-2024</h3>
-        <p>Прошел отбор на курс от Тинькофф "Алгоритмы и структуры данных"; </p>
+        <p>Проходил стажировку в компании <strong>Лига Цифровой Экономики</strong></p>
+        <p>Прошел отбор на курс от <strong>Тинькофф "Алгоритмы и структуры данных"</strong></p>
         <p>Завершил курс с оценкой 8.0/10.0.</p>
-
     </div>
-    <div class="vertcical-container">
-        <div class="block" >
-            <h2>Стек</h2>
-            <ul>
-                <li>Java + Spring (Boot, Web, Data), Hibernate</li>
-                <li>Golang</li>
-                <li>HTML + CSS + JS и Angular</li>
-                <li>PostgreSQL, Oracle</li>
-                <li>Docker, docker compose</li>
-                <li>REST, SOAP</li>
-                <li>Git и Github, Gitlab</li>
-            </ul>
-            <p>Помимо этого у меня есть навыки</p>
-            <p>написания запросов на SQL,</p>
-            <p>работы из-под терминала в Linux (ubuntu),</p>
-            <p>настройки CI и деплоя (docker),</p>
-            <p>опыт работы с Apache Kafka.</p>
-        </div>
-        <div class="block">
-            <h2>Мои проекты</h2>
-            <ul>
-                <li>
-                    <a href="https://github.com/DmitryErmakoff/tinkoff-aglocourse">Tinkoff Algocourse</a> -- репозиторий с решением некоторых задач с курса "АИСД" от Тинькофф,
-                </li>
-                <li>
-                    <a href="https://github.com/DmitryErmakoff/auth_service">Auth Service (In progress)</a> -- репозиторий с одним из сервисом моего будущего диплома, сервис будет отвечать за авторизацию пользователей.
-                </li>
-            </ul>
-        </div>
+    <div class="block">
+        <h2>Стек</h2>
+        <ul>
+            <li>Java</li>
+            <li>Spring (Boot, Web, Data)</li>
+            <li>Hibernate, JDBC</li>
+            <li>REST, SOAP</li>
+            <li>Redis</li>
+            <li>PostgreSQL, Oracle</li>
+            <li>Maven, Gradle</li>
+            <li>Apache Kafka</li>
+            <li>Liquibase, Flyway</li>
+            <li>Docker</li>
+            <li>Github, Gitlab</li>
+        </ul>
     </div>
 </div>
 </body>
-
